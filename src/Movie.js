@@ -9,7 +9,7 @@ const  Movie = ({m}) =>{
             <b>Rating:</b> {m.rating}
         </p>
         <p>
-            Runtime: {m.runtime}
+            <b>Runtime:</b> {m.runtime}
         </p>
 
     </li>
