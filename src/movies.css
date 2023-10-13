@@ -1,4 +1,7 @@
 .movie-container{
+    
+    justify-content: center;
+    align-items: center;
     display: flex;
     flex-direction: column;
     background: linear-gradient(45deg, red, blue);
@@ -7,6 +10,9 @@
     font-size: 2.3rem;
     color: aliceblue;
 }
+li{
+    list-style: none;
+  } 
 .movie-list{
     display: flex;
     flex-wrap: wrap;
