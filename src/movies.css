@@ -1,0 +1,30 @@
+.movie-container{
+    display: flex;
+    flex-direction: column;
+    background: linear-gradient(45deg, red, blue);
+}
+.movie-container >h2{
+    font-size: 2.3rem;
+    color: aliceblue;
+}
+.movie-list{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
+}
+.movie{
+    
+    margin: 5px;
+    padding: 15px;
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    /* display: flex; */
+    /* justify-content: center; */
+    /* justify-items: center;
+    flex-direction: column; */
+}
+.movie >p{
+    color: azure;
+    font-size: 16px;
+}
