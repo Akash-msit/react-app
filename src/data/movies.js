@@ -61,7 +61,7 @@ export const movies = [
     },
     {
       id: 7,
-      title: "The Lord of the Rings: The Fellowship of the Ring",
+      title: "The Lord of the Rings:",
       year: 2001,
       director: "Peter Jackson",
       rating: "PG-13",
@@ -69,4 +69,24 @@ export const movies = [
       poster:
         "https://images-na.ssl-images-amazon.com/images/M/MV5BN2EyZjM3NzUtNWUzMi00MTgxLWI0NTctMzY4M2VlOTdjZWRiXkEyXkFqcGdeQXVyNDUzOTQ5MjY@._V1_SX300.jpg",
     },
+    {
+        id: 8,
+        title: "Interstellar",
+        year: 2014,
+        director: "Christopher Nolan",
+        rating: "PG-13",
+        runtime: 169,
+        poster:
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMjIxNTU4MzY4MF5BMl5BanBnXkFtZTgwMzM4ODI3MjE@._V1_SX300.jpg",
+      },
+      {
+        id: 9,
+        title: "The Dark Knight Rises",
+        year: 2012,
+        director: "Christopher Nolan",
+        rating: "PG-13",
+        runtime: 164,
+        poster:
+          "https://images-na.ssl-images-amazon.com/images/M/MV5BMTk4ODQzNDY3Ml5BMl5BanBnXkFtZTcwODA0NTM4Nw@@._V1_SX300.jpg",
+      },
   ];
