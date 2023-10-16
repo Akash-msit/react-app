@@ -8,8 +8,11 @@ const MovieComponents = () =>{
     const movieData = fetchMoiveData();
 
     return(
+        <div>
+            <div className="m-style">
+                <h1>MOVIES</h1>
+            </div>
         <div className ="movie-container">
-          <h2>MOVIES</h2> 
           <ul className="movie-list">
             {
                 movieData.map((movie)=>(
@@ -19,7 +22,7 @@ const MovieComponents = () =>{
                 )
             }
           </ul> 
-
+          </div>
         </div>
     )
   }

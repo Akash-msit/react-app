@@ -1,3 +1,4 @@
+import BuyButton from "./BuyButton";
 const  Movie = ({m}) =>{
     return(
         <li className="movie" key={m.id}>
@@ -11,7 +12,9 @@ const  Movie = ({m}) =>{
         <p>
             <b>Runtime:</b> {m.runtime}
         </p>
-
+        <div>
+            <BuyButton/>
+        </div>
     </li>
 
     )
